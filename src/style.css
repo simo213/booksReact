@@ -1,0 +1,11 @@
+.bookContainer{
+  
+    border-radius:26px;
+      box-shadow: 3px 3px 17px 5px rgba(0,0,0,0.73);
+      margin-top: 2%;
+      max-width: 25vw;
+}
+.bookTitleContainer{
+      margin-top: 2%;
+      max-width: 25vw;
+}
