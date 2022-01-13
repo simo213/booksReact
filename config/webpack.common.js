@@ -13,18 +13,7 @@ module.exports = {
                     }
                 }
             },
-            // {
-            //     test: /\.css$/i,
-            //     use:{ 
-            //         loader: 'style-loader',
-            //     options: {
-
-            //       modules: {
-            //         auto: (resourcePath) => resourcePath.endsWith(".css"),
-            //       },
-            //     }
-            //     },
-            //   },
+        
         ]
     }
 }

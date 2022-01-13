@@ -8,7 +8,7 @@ function BookComponent() {
   const componentMounted = useRef(true);
 
   const makeAPICall = async () => {
-    const response = await fetch("http://localhost/cors", {
+    const response = await fetch("http://localhost:8081/books", {
       mode: 'cors'
     }).then(response => response.json())
       .then(data => {
